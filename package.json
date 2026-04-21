@@ -1,0 +1,1 @@
+{\n  "name": "akjili.com",\n  "version": "1.0.0",\n  "scripts": {\n    "start": "node backend/index.js",\n    "client": "cd frontend && npm start",\n    "dev": "concurrently \"npm run client\" \"npm run backend\"",\n    "backend": "node backend/index.js"\n  },\n  "dependencies": {},\n  "devDependencies": {\n    "concurrently": "^6.0.0"\n  }\n}
